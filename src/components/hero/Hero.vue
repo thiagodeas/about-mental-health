@@ -1,9 +1,15 @@
-<script>
-
+<script setup>    
+import heroIllustration from '../../assets/images/hero-illustration.png'
 </script>
 
 <template>
-    <div>
-        <h1>Essa é a Hero Page!</h1>
+    <div class="flex items-center justify-center h-screen w-full bg-lightGray">
+        <div>
+            <img :src=heroIllustration alt="Hero Illustration" class="h-[450px] w-[450px]">
+        </div>
+        <div class="flex items-center justify-center flex-col text-center w-[700px] pb-12">
+            <p class="text-[100px] font-amatic leading-tight">A importância do</p>
+            <p class="text-[110px] font-amatic font-semibold leading-none text-lightPurple">Auto-Cuidado</p>
+        </div>
     </div>
 </template>
