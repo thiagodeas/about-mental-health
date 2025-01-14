@@ -13,6 +13,7 @@ export default {
       },
       fontFamily: {
         amatic: ["'Amatic SC'", "cursive"],
+        ms: ["Lucida Sans", "sans-serif"]
       },
     },
   },
