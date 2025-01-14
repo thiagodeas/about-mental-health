@@ -3,7 +3,7 @@ import heroIllustration from '../../assets/images/hero-illustration.png'
 </script>
 
 <template>
-    <div class="flex items-center justify-center h-screen w-full bg-lightGray">
+    <div class="flex items-center justify-center min-h-screen w-full bg-white">
         <div>
             <img :src=heroIllustration alt="Hero Illustration" class="h-[450px] w-[450px]">
         </div>
