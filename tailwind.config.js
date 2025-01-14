@@ -10,6 +10,7 @@ export default {
         lightPurple: '#4E27BE',
         lightRed: '#EF5D5E',
         lightGray: '#e9e9e9',
+        lightGray2:'#',
         lightBlck: '#020C24',
       },
       fontFamily: {
