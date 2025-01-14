@@ -4,22 +4,43 @@ import badMood from '../../assets/images/bad-mood.png'
 </script>
 
 <template>
-    <div class="flex justify-center items-center min-h-screen w-full bg-white pl-12">
-        <div class="flex justify-center items-center w-[700px] text-center">
-            <p class="text-2xl font-rbt text-lightBlck tracking-wide">O cuidado da mente envolve tanto o autoconhecimento quanto o cultivo de práticas que promovem equilíbrio emocional e psicológico. Técnicas de relaxamento, como a meditação e a respiração profunda, são poderosas aliadas nesse processo, permitindo que a mente desacelere e se reequilibre. Além disso, atividades que estimulam o bem-estar, como a prática regular de exercícios físicos, o cuidado com a alimentação e o sono adequado, também têm um impacto significativo na saúde mental.</p>
-        </div>
-        <div>
-            <img :src="wellBeingIllustration" alt="Well Being Illustration" class="w-[600px] h-[600px]">
-        </div>
+  <div class="w-full">
+    
+    <div class="w-full">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#e9e9e9"
+          fill-opacity="1"
+          d="M0,160L60,133.3C120,107,240,53,360,80C480,107,600,213,720,245.3C840,277,960,235,1080,213.3C1200,192,1320,192,1380,192L1440,192L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"
+        ></path>
+      </svg>
+    </div>
+
+    
+    <div class="flex justify-center items-center min-h-screen w-full bg-white pl-16">
+      <div class="flex justify-center items-center w-[700px] text-center">
+        <p class="text-2xl font-rbt text-lightBlck tracking-wider">
+          O cuidado da mente envolve tanto o autoconhecimento quanto o cultivo de práticas que promovem equilíbrio emocional e psicológico. Técnicas de relaxamento, como a meditação e a respiração profunda, são poderosas aliadas nesse processo, permitindo que a mente desacelere e se reequilibre. <br /> <br /> Além disso, atividades que estimulam o bem-estar, como a prática regular de exercícios físicos, o cuidado com a alimentação e o sono adequado, também têm um impacto significativo na saúde mental.
+        </p>
+      </div>
+      <div>
+        <img :src="wellBeingIllustration" alt="Well Being Illustration" class="w-[650px] h-[600px]" />
+      </div>
     </div>
 
     <div class="flex justify-center flex-row-reverse items-center min-h-screen w-full bg-white pr-12">
-        <div class="flex justify-center items-center w-[700px] flex-col text-center gap-8 tracking-wide">
-            <p class="text-2xl text-lightBlck font-rbt">É importante também aprender a reconhecer sinais de alerta em nossa saúde mental, como a irritabilidade excessiva, dificuldades para dormir, perda de interesse por atividades que antes eram prazerosas e a sensação constante de cansaço. Identificar esses sinais logo no início pode ajudar a prevenir complicações mais graves.</p>
-            <p class="text-2xl text-lightBlck font-rbt">Cuidar da mente não é um luxo, é uma necessidade para uma vida equilibrada e saudável. Ao praticarmos o autocuidado, buscamos uma maior conexão conosco mesmos, tornando-nos mais resilientes diante dos desafios e mais preparados para lidar com as adversidades da vida. Quando estamos bem mentalmente, nossa capacidade de tomar decisões, interagir com os outros e enfrentar situações difíceis se fortalece.</p>
-        </div>
-        <div>
-            <img :src="badMood" alt="Bad Mood Illustration" class="w-[600px] h-[600px]">
-        </div>
+      <div class="flex justify-center items-center w-[700px] flex-col text-center gap-8 tracking-wide">
+        <p class="text-2xl text-lightBlck font-rbt tracking-wide">
+          É importante também aprender a reconhecer sinais de alerta em nossa saúde mental, como a irritabilidade excessiva, dificuldades para dormir, perda de interesse por atividades que antes eram prazerosas e a sensação constante de cansaço. Identificar esses sinais logo no início pode ajudar a prevenir complicações mais graves.
+        </p>
+        <p class="text-2xl text-lightBlck font-rbt tracking-wide">
+          Cuidar da mente não é um luxo, é uma necessidade para uma vida equilibrada e saudável. Ao praticarmos o autocuidado, buscamos uma maior conexão conosco mesmos, tornando-nos mais resilientes diante dos desafios e mais preparados para lidar com as adversidades da vida. Quando estamos bem mentalmente, nossa capacidade de tomar decisões, interagir com os outros e enfrentar situações difíceis se fortalece.
+        </p>
+      </div>
+      <div>
+        <img :src="badMood" alt="Bad Mood Illustration" class="w-[600px] h-[600px]" />
+      </div>
     </div>
+
+  </div>
 </template>

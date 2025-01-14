@@ -1,5 +1,5 @@
-<script setup>
-import anxiety from '../../assets/images/anxiety.png'
+<script>
+
 </script>
 
 <template>
