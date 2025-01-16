@@ -1,6 +1,7 @@
 <script setup>
 import wellBeingIllustration from '../../assets/images/well-being.png'
-import badMood from '../../assets/images/bad-mood.png'
+import leisure from '../../assets/images/leisure.png'
+import refuge from '../../assets/images/refuge.png'
 </script>
 
 <template>
@@ -38,8 +39,33 @@ import badMood from '../../assets/images/bad-mood.png'
         </p>
       </div>
       <div>
-        <img :src="badMood" alt="Bad Mood Illustration" class="w-[600px] h-[600px]" />
+        <img :src="leisure" alt="Leisure   Illustration" class="w-[600px] h-[600px]" />
       </div>
+    </div>
+
+    <div class="flex justify-start items-center min-h-screen flex-col w-full bg-white pt-8 gap-8">
+      <div>
+        <h1 class="font-amatic text-8xl font-bold text-lightRed tracking-wide pb-8">PRECONCEITO</h1>
+      </div>
+
+      <div class="flex justify-center items-center flex-col w-[800px] text-center bg-lightPurple p-10 rounded-2xl clip-path-softTilt">
+        <p class="text-2xl font-rbt text-lightGray tracking-wider">O preconceito em relação à saúde mental ainda é uma barreira significativa que impede muitas pessoas de buscar a ajuda de que precisam. Muitas vezes, a falta de conhecimento ou a perpetuação de estigmas culturais leva à ideia de que problemas emocionais ou psicológicos são sinais de fraqueza ou incapacidade.
+        </p>
+        <br />
+        <p class="text-2xl font-rbt text-lightGray tracking-wider">Essa visão distorcida pode causar vergonha ou medo de julgamento, levando indivíduos a esconderem seus sintomas ou evitarem compartilhar seus sentimentos. Como resultado, problemas que poderiam ser tratados de forma eficaz muitas vezes se agravam, causando mais sofrimento. Além disso, o preconceito pode influenciar negativamente os relacionamentos pessoais, ambientes de trabalho e até mesmo as políticas públicas, dificultando o acesso a recursos e tratamentos adequados.
+        </p>
+       <br />
+      </div>
+
+      <div class="flex justify-center items-center min-h-screen w-full bg-white">
+      <div class="flex justify-center items-center flex-col w-[700px] text-center gap-4 pr-12">
+        <p class="text-2xl font-rbt text-lightBlck tracking-wider">Se você enfrenta preconceito ou teme ser julgado, lembre-se de que não está sozinho nessa jornada. Existe uma rede de apoio composta por profissionais de saúde mental, organizações e comunidades dedicadas a ajudar e acolher. A busca por ajuda é um ato de coragem, e não um sinal de fraqueza.</p>
+        <p class="text-2xl font-rbt text-lightBlck tracking-wider">Combater o preconceito começa com pequenos passos: educar-se, compartilhar experiências e apoiar aqueles que precisam. Juntos, podemos construir uma sociedade mais empática e compreensiva, onde cuidar da mente seja reconhecido como uma prioridade para todos.</p>
+        </div>
+        <div>
+        <img :src="refuge" alt="Refuge Illustration" class="h-[450px] w-[450px]">
+      </div>
+    </div>
     </div>
 
   </div>

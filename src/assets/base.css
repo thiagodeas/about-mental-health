@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+    .clip-path-softTilt {
+        clip-path: polygon(0 3%, 100% 0, 100% 95%, 0% 100%);
+    }
+}
