@@ -6,7 +6,7 @@
   <div class="flex items-center justify-center min-h-screen flex-col text-center w-full">
  
     <div class="w-full">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 318">
         <path
           fill="#4E27BE"
           fill-opacity="1"
@@ -15,7 +15,7 @@
       </svg>
     </div>
 
-    <div class="flex items-center justify-center bg-lightPurple pb-36 flex-col w-full min-h-screen">
+    <div class="flex items-center justify-center bg-lightPurple flex-col w-full min-h-screen">
       <div class="flex items-center justify-center w-[600px] pb-8">
         <h1 class="text-7xl font-amatic text-lightGray">
           Como Você Tem Cuidado da

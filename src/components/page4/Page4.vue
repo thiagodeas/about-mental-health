@@ -43,7 +43,7 @@ import selfCare from '../../assets/images/self-care.png'
     </div>
 
     <div class="w-full">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 319">
         <path
           fill="#EF5D5E"
           fill-opacity="1"
@@ -53,13 +53,12 @@ import selfCare from '../../assets/images/self-care.png'
     </div>
 
     <div class="flex items-start justify-center flex-row-reverse w-full min-h-screen text-center bg-lightRed">
-        <div class="flex items-center flex-col justify-center w-[1000px] gap-8 pl-12">
-            <h1 class="font-rbt text-4xl text-lightBlck"><span class="text-white">Depressão:</span> Identificando os Sintomas e Buscando Ajuda</h1>
+        <div class="flex items-center flex-col justify-center w-[1000px] gap-10 pl-12">
+            <h1 class="font-rbt text-4xl text-lightBlck mt-12 mb-2"><span class="text-white">Depressão:</span> Identificando os Sintomas e Buscando Ajuda</h1>
             <p class="font-rbt text-2xl text-lightBlck tracking-wider">A depressão não é apenas uma tristeza passageira. Ela é uma condição médica séria que afeta profundamente o estado emocional e físico. A perda de interesse em atividades que antes eram prazerosas, uma sensação constante de vazio, cansaço extremo e até pensamentos negativos e suicidas são sinais claros de que a pessoa pode estar enfrentando um quadro de depressão.</p>
             <p class="font-rbt text-2xl text-lightBlck tracking-wider">
                 É importante reconhecer que a depressão não é uma fraqueza ou falta de esforço, mas uma condição que exige atenção e tratamento especializado. <br /> <br />O tratamento da depressão é fundamental e pode envolver diferentes abordagens, como a terapia, apoio social de amigos e familiares, e, em alguns casos, medicamentos que ajudam a equilibrar as substâncias químicas no cérebro.
             </p>
-            <p class="font-rbt text-2xl text-lightBlck tracking-wider">sasasasasasasasasasasasasasaksoka</p>
         </div>
     </div>
 

@@ -20,9 +20,7 @@ import refuge from '../../assets/images/refuge.png'
     
     <div class="flex justify-center items-center min-h-screen w-full bg-white pl-16">
       <div class="flex justify-center items-center w-[700px] text-center">
-        <p class="text-2xl font-rbt text-lightBlck tracking-wider">
-          O cuidado da mente envolve tanto o autoconhecimento quanto o cultivo de práticas que promovem equilíbrio emocional e psicológico. Técnicas de relaxamento, como a meditação e a respiração profunda, são poderosas aliadas nesse processo, permitindo que a mente desacelere e se reequilibre. <br /> <br /> Além disso, atividades que estimulam o bem-estar, como a prática regular de exercícios físicos, o cuidado com a alimentação e o sono adequado, também têm um impacto significativo na saúde mental.
-        </p>
+        <p class="text-2xl font-rbt text-lightBlck tracking-wider">Cuidar da mente é um processo contínuo que envolve o autoconhecimento e a adoção de práticas que promovem o equilíbrio emocional e psicológico. Técnicas como meditação e respiração profunda são eficazes para acalmar a mente, reduzir o estresse e restaurar o foco. <br /><br/>Além disso, hábitos saudáveis como uma alimentação nutritiva e um sono de qualidade têm um impacto direto na saúde mental, ajudando a manter o cérebro equilibrado e funcionando de forma otimizada. Reconhecer a importância desse cuidado diário é essencial, pois pequenas mudanças podem gerar grandes benefícios ao longo do tempo.</p>
       </div>
       <div>
         <img :src="wellBeingIllustration" alt="Well Being Illustration" class="w-[650px] h-[600px]" />
@@ -32,10 +30,10 @@ import refuge from '../../assets/images/refuge.png'
     <div class="flex justify-center flex-row-reverse items-center min-h-screen w-full bg-white pr-12">
       <div class="flex justify-center items-center w-[700px] flex-col text-center gap-8 tracking-wide">
         <p class="text-2xl text-lightBlck font-rbt tracking-wide">
-          É importante também aprender a reconhecer sinais de alerta em nossa saúde mental, como a irritabilidade excessiva, dificuldades para dormir, perda de interesse por atividades que antes eram prazerosas e a sensação constante de cansaço. Identificar esses sinais logo no início pode ajudar a prevenir complicações mais graves.
+          É fundamental aprender a identificar sinais de alerta na nossa saúde mental, como irritabilidade excessiva, dificuldades para dormir, perda de interesse por atividades antes prazerosas e sensação constante de cansaço. Detectar esses sinais precocemente pode evitar complicações maiores.
         </p>
         <p class="text-2xl text-lightBlck font-rbt tracking-wide">
-          Cuidar da mente não é um luxo, é uma necessidade para uma vida equilibrada e saudável. Ao praticarmos o autocuidado, buscamos uma maior conexão conosco mesmos, tornando-nos mais resilientes diante dos desafios e mais preparados para lidar com as adversidades da vida. Quando estamos bem mentalmente, nossa capacidade de tomar decisões, interagir com os outros e enfrentar situações difíceis se fortalece.
+          Cuidar da mente não é um luxo, mas uma necessidade para uma vida equilibrada. O autocuidado fortalece nossa conexão consigo mesmos, tornando-nos mais resilientes diante dos desafios e melhor preparados para enfrentar adversidades. Quando nossa saúde mental está equilibrada, nossa capacidade de tomar decisões, interagir com os outros e lidar com situações difíceis é aprimorada.
         </p>
       </div>
       <div>
@@ -49,7 +47,7 @@ import refuge from '../../assets/images/refuge.png'
       </div>
 
       <div class="flex justify-center items-center flex-col w-[800px] text-center bg-lightPurple p-10 rounded-2xl clip-path-softTilt">
-        <p class="text-2xl font-rbt text-lightGray tracking-wider">O preconceito em relação à saúde mental ainda é uma barreira significativa que impede muitas pessoas de buscar a ajuda de que precisam. Muitas vezes, a falta de conhecimento ou a perpetuação de estigmas culturais leva à ideia de que problemas emocionais ou psicológicos são sinais de fraqueza ou incapacidade.
+        <p class="text-2xl font-rbt text-lightGray tracking-wider">O preconceito sobre saúde mental ainda é uma barreira que impede muitas pessoas de buscar ajuda. Estigmas culturais e a falta de informação muitas vezes levam à crença de que problemas emocionais são sinais de fraqueza ou incapacidade.
         </p>
         <br />
         <p class="text-2xl font-rbt text-lightGray tracking-wider">Essa visão distorcida pode causar vergonha ou medo de julgamento, levando indivíduos a esconderem seus sintomas ou evitarem compartilhar seus sentimentos. Como resultado, problemas que poderiam ser tratados de forma eficaz muitas vezes se agravam, causando mais sofrimento. Além disso, o preconceito pode influenciar negativamente os relacionamentos pessoais, ambientes de trabalho e até mesmo as políticas públicas, dificultando o acesso a recursos e tratamentos adequados.
