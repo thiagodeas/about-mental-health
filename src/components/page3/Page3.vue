@@ -1,6 +1,3 @@
-<script>
-
-</script>
 
 <template>
   <div class="flex items-center justify-center min-h-screen flex-col text-center w-full">

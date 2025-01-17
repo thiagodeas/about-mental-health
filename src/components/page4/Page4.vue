@@ -62,12 +62,26 @@ import selfCare from '../../assets/images/self-care.png'
         </div>
     </div>
 
-    <div class="flex items-start justify-center w-full min-h-screen text-center bg-lightRed">
-        <div class="flex items-center flex-col justify-center w-[900px] gap-6">
-            <h1 class="font-amatic text-8xl font-bold text-white pb-6 tracking-wide">Você não está sozinho!</h1>
-            <p class="font-rbt text-2xl text-lightBlck tracking-wider">Buscar ajuda é um passo essencial no processo de recuperação. A depressão é uma doença tratável, e com o apoio certo, é possível superá-la. Ter coragem de procurar ajuda, seja com um profissional de saúde mental, amigos ou familiares, pode ser o primeiro passo para encontrar a luz no fim do túnel.</p>
-            <p class="font-rbt text-2xl text-lightBlck tracking-wider"> Lembre-se de que, mesmo nos momentos mais difíceis, sempre existe um caminho para a recuperação. Buscar ajuda é um passo corajoso, e você merece viver uma vida cheia de equilíbrio, saúde e bem-estar. Não tenha medo de pedir ajuda – sua jornada de cura começa com o primeiro passo.</p>
-        </div>
+    <div class="flex items-center justify-center w-full min-h-screen text-center bg-lightRed relative">
+    <div class="flex items-center flex-col justify-center w-[900px] gap-6 z-10">
+      <h1 class="font-amatic text-8xl font-bold text-white pb-6 tracking-wide">Você não está sozinho!</h1>
+      <p class="font-rbt text-2xl text-lightBlck tracking-wider">
+        Buscar ajuda é um passo essencial no processo de recuperação. A depressão é uma doença tratável, e com o apoio certo, é possível superá-la. Ter coragem de procurar ajuda, seja com um profissional de saúde mental, amigos ou familiares, pode ser o primeiro passo para encontrar a luz no fim do túnel.
+      </p>
+      <p class="font-rbt text-2xl text-lightBlck tracking-wider">
+        Lembre-se de que, mesmo nos momentos mais difíceis, sempre existe um caminho para a recuperação. Buscar ajuda é um passo corajoso, e você merece viver uma vida cheia de equilíbrio, saúde e bem-estar. Não tenha medo de pedir ajuda – sua jornada de cura começa com o primeiro passo.
+      </p>
     </div>
+
+    <div class="absolute bottom-0 left-0 w-full">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#ffffff"
+          fill-opacity="1"
+          d="M0,300C60,295,120,290,180,295.3C240,301,300,305,360,306C420,307,480,302,540,297.3C600,292,660,285,720,286.3C780,287,840,300,900,305.3C960,310,1020,305,1080,302.3C1140,300,1200,300,1260,302.3C1320,305,1380,307,1410,308.7L1440,310L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"
+        ></path>
+      </svg>
+    </div>
+  </div>
 </div>
 </template>
