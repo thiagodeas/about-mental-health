@@ -16,7 +16,7 @@ import selfCare from '../../assets/images/self-care.png'
       </svg>
     </div>
 
-    <div class="flex items-center justify-center w-full min-h-screen text-center bg-white">
+    <div class="flex items-center justify-center w-full min-h-screen text-center bg-white" data-aos="fade-up">
         
         <div class="flex items-center justify-center flex-col w-[700px] gap-6">
             <h1 class="font-rbt text-4xl"><span class="text-lightPurple">Ansiedade:</span> Como Reconhecer os Sinais e Controlá-la?</h1>
@@ -30,7 +30,7 @@ import selfCare from '../../assets/images/self-care.png'
         </div>
     </div>
 
-    <div class="flex items-start justify-center flex-row-reverse w-full min-h-screen text-center bg-white gap-12">
+    <div class="flex items-start justify-center flex-row-reverse w-full min-h-screen text-center bg-white gap-12"  data-aos="fade-left">
         <div class="flex items-center justify-center flex-col w-[700px] bg-[#ffffff] rounded-md p-6 shadow-[#4d27be8e] shadow-md">
             <p class="font-rbt text-2xl text-lightBlck tracking-wider">
             Embora a ansiedade seja uma resposta natural, ela não precisa dominar sua vida. Felizmente, existem várias maneiras de controlar e reduzir seus impactos. Estratégias como a meditação, que ajuda a acalmar a mente e reduzir os níveis de estresse, e a terapia cognitivo-comportamental, que permite entender e reestruturar padrões de pensamento prejudiciais, são extremamente eficazes. <br /> <br/> A prática regular de atividades físicas também desempenha um papel crucial, pois liberta endorfinas que promovem sensações de bem-estar e relaxamento.
@@ -53,7 +53,7 @@ import selfCare from '../../assets/images/self-care.png'
     </div>
 
     <div class="flex items-start justify-center flex-row-reverse w-full min-h-screen text-center bg-lightRed">
-        <div class="flex items-center flex-col justify-center w-[1000px] gap-10 pl-12">
+        <div class="flex items-center flex-col justify-center w-[1000px] gap-10 pl-12" data-aos="fade-up">
             <h1 class="font-rbt text-4xl text-lightBlck mt-12 mb-2"><span class="text-white">Depressão:</span> Identificando os Sintomas e Buscando Ajuda</h1>
             <p class="font-rbt text-2xl text-lightBlck tracking-wider">A depressão não é apenas uma tristeza passageira. Ela é uma condição médica séria que afeta profundamente o estado emocional e físico. A perda de interesse em atividades que antes eram prazerosas, uma sensação constante de vazio, cansaço extremo e até pensamentos negativos e suicidas são sinais claros de que a pessoa pode estar enfrentando um quadro de depressão.</p>
             <p class="font-rbt text-2xl text-lightBlck tracking-wider">
@@ -63,7 +63,7 @@ import selfCare from '../../assets/images/self-care.png'
     </div>
 
     <div class="flex items-center justify-center w-full min-h-screen text-center bg-lightRed relative">
-    <div class="flex items-center flex-col justify-center w-[900px] gap-6 z-10">
+    <div class="flex items-center flex-col justify-center w-[900px] gap-6 z-10" data-aos="fade-up">
       <h1 class="font-amatic text-8xl font-bold text-white pb-6 tracking-wide">Você não está sozinho!</h1>
       <p class="font-rbt text-2xl text-lightBlck tracking-wider">
         Buscar ajuda é um passo essencial no processo de recuperação. A depressão é uma doença tratável, e com o apoio certo, é possível superá-la. Ter coragem de procurar ajuda, seja com um profissional de saúde mental, amigos ou familiares, pode ser o primeiro passo para encontrar a luz no fim do túnel.

@@ -13,14 +13,14 @@
     </div>
 
     <div class="flex items-center justify-center bg-lightPurple flex-col w-full min-h-screen">
-      <div class="flex items-center justify-center w-[600px] pb-8">
+      <div class="flex items-center justify-center w-[600px] pb-8" data-aos="fade-up">
         <h1 class="text-7xl font-amatic text-lightGray">
           Como Você Tem Cuidado da
           <span class="text-lightRed font-bold">Sua Mente</span>?
         </h1>
       </div>
 
-      <div class="flex items-center justify-center w-[990px] gap-16">
+      <div class="flex items-center justify-center w-[990px] gap-16" data-aos="fade-up">
         <div class="flex items-center justify-center p-4">
           <p class="text-2xl font-rbt font-light tracking-wider text-lightGray">
             A mente é um espaço valioso e fundamental para a nossa saúde e bem-estar. É nela que nossos pensamentos, sentimentos, reações e comportamentos são moldados, influenciando diretamente a forma como interagimos com o mundo ao nosso redor.
